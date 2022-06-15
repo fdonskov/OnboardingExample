@@ -5,7 +5,7 @@
 //  Created by Федор Донсков on 15.06.2022.
 //
 
-import Foundation
+import UIKit
 
 final class OnboardingModel {
     
