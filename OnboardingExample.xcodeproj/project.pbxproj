@@ -12,6 +12,7 @@
 		06360594285A4AC100CD3E32 /* 19008-questions-chat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 06360591285A4AC100CD3E32 /* 19008-questions-chat.gif */; };
 		06360595285A4AC100CD3E32 /* 70404-interview-animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 06360592285A4AC100CD3E32 /* 70404-interview-animation.gif */; };
 		06360597285A4AF600CD3E32 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06360596285A4AF600CD3E32 /* Onboarding.swift */; };
+		06360599285A6D3900CD3E32 /* OnboardingContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06360598285A6D3900CD3E32 /* OnboardingContentViewCell.swift */; };
 		0684AB162859F36800236B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684AB152859F36800236B13 /* AppDelegate.swift */; };
 		0684AB182859F36800236B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684AB172859F36800236B13 /* SceneDelegate.swift */; };
 		0684AB1A2859F36800236B13 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684AB192859F36800236B13 /* OnboardingController.swift */; };
@@ -28,6 +29,7 @@
 		06360591285A4AC100CD3E32 /* 19008-questions-chat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "19008-questions-chat.gif"; sourceTree = "<group>"; };
 		06360592285A4AC100CD3E32 /* 70404-interview-animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "70404-interview-animation.gif"; sourceTree = "<group>"; };
 		06360596285A4AF600CD3E32 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		06360598285A6D3900CD3E32 /* OnboardingContentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewCell.swift; sourceTree = "<group>"; };
 		0684AB122859F36800236B13 /* OnboardingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0684AB152859F36800236B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0684AB172859F36800236B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				0684AB322859F5EF00236B13 /* OnboardingView.swift */,
+				06360598285A6D3900CD3E32 /* OnboardingContentViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				0684AB312859F5C200236B13 /* OnboardingModel.swift in Sources */,
 				0684AB1A2859F36800236B13 /* OnboardingController.swift in Sources */,
 				0684AB162859F36800236B13 /* AppDelegate.swift in Sources */,
+				06360599285A6D3900CD3E32 /* OnboardingContentViewCell.swift in Sources */,
 				06360597285A4AF600CD3E32 /* Onboarding.swift in Sources */,
 				0636058E285A49A100CD3E32 /* UIImage+Ext.swift in Sources */,
 				0684AB332859F5EF00236B13 /* OnboardingView.swift in Sources */,
