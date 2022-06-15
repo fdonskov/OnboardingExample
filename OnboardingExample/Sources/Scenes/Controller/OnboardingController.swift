@@ -9,6 +9,8 @@ import UIKit
 
 class OnboardingController: UIViewController {
     
+    var model: OnboardingModel?
+    
     // Это вычисляемое свойство преобразует тип родительской view в OnboardingView
     // Это делается чтобы мы в будущем могли из Controller'a обращаться к элементам View
     private var onboardingView: OnboardingView? {
@@ -22,6 +24,8 @@ class OnboardingController: UIViewController {
 
         // Присваиваем значение View наш созданный класс OnboardingView()
         view = OnboardingView()
+        
+        model = OnboardingModel()
     }
 
 
