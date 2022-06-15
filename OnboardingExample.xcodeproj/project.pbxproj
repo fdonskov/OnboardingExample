@@ -56,15 +56,47 @@
 		0684AB142859F36800236B13 /* OnboardingExample */ = {
 			isa = PBXGroup;
 			children = (
-				0684AB152859F36800236B13 /* AppDelegate.swift */,
-				0684AB172859F36800236B13 /* SceneDelegate.swift */,
-				0684AB192859F36800236B13 /* ViewController.swift */,
+				0684AB292859F3ED00236B13 /* Sources */,
+				0684AB2A2859F3F800236B13 /* Resources */,
+			);
+			path = OnboardingExample;
+			sourceTree = "<group>";
+		};
+		0684AB292859F3ED00236B13 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0684AB2B2859F40800236B13 /* App */,
+				0684AB2C2859F40E00236B13 /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0684AB2A2859F3F800236B13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				0684AB1B2859F36800236B13 /* Main.storyboard */,
 				0684AB1E2859F36900236B13 /* Assets.xcassets */,
 				0684AB202859F36900236B13 /* LaunchScreen.storyboard */,
 				0684AB232859F36900236B13 /* Info.plist */,
 			);
-			path = OnboardingExample;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0684AB2B2859F40800236B13 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0684AB152859F36800236B13 /* AppDelegate.swift */,
+				0684AB172859F36800236B13 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0684AB2C2859F40E00236B13 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0684AB192859F36800236B13 /* ViewController.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U62DU83J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OnboardingExample/Info.plist;
+				INFOPLIST_FILE = OnboardingExample/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U62DU83J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OnboardingExample/Info.plist;
+				INFOPLIST_FILE = OnboardingExample/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
